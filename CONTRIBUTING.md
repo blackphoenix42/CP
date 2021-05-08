@@ -10,7 +10,7 @@ support open-source projects. Basically the steps are:
 4. [Make a Pull Request](https://guides.github.com/activities/forking/#making-a-pull-request)
 5. [And you're done!](https://guides.github.com/activities/forking/#huzzah)
 
-<u>Contribute to this repo by converting <span style="color:red">**Python**</span> codes into <span style="color:red">**CPP**</span>. </u>
+Contribute to this repo by converting <span style="color:red">**Python**</span> codes into <span style="color:red">**CPP**</span>.
 
 - Make a separate sub-directory with name <code>CPP</code> (if not already made) inside the directory you want to work on. <br> e.g. If you want to work on <code>Arrays</code>. You can create a sub-directory with name <code>CPP</code> inside it.
 - Navigate to it. In this case that will be <code>Arrays/CPP/</code>
