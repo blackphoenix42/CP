@@ -1,14 +1,22 @@
 # <span style="color:blue">CONTRIBUTING</span>
 
-You can contribute to this repo by converting <span style="color:red">**Python**</span> codes into <span style="color:red">**CPP**</span>.
+If you have not contributed to a project before, don't fret! GitHub has an
+[awesome guide](https://guides.github.com/activities/forking/) for helping
+support open-source projects. Basically the steps are:
 
-### <span style="color:green">Steps</span>
+1. [Fork the repository](https://guides.github.com/activities/forking/#fork)
+2. [Clone your fork](https://guides.github.com/activities/forking/#clone)
+3. [Make and push your changes](https://guides.github.com/activities/forking/#making-changes)
+4. [Make a Pull Request](https://guides.github.com/activities/forking/#making-a-pull-request)
+5. [And you're done!](https://guides.github.com/activities/forking/#huzzah)
 
-1. Make a separate sub-directory with name <code>CPP</code> (if not already made) inside the directory you want to work on. <br> e.g. If you want to work on <code>Arrays</code>. You can create a sub-directory with name <code>CPP</code> inside it.
-2. Navigate to it. In this case that will be <code>Arrays/CPP/</code>
-3. Create a file and with same name that you want to convert with an extension of <code>.cpp</code> <br> e.g. Let's say you want to convert <code>twoNumberSum.py</code> then the new file will be <code>twoNumberSum.cpp</code>
-4. Convert the code and submit the Pull Request.
-5. Hoooooorah! You did it.🥳
+<u>Contribute to this repo by converting <span style="color:red">**Python**</span> codes into <span style="color:red">**CPP**</span>. </u>
+
+- Make a separate sub-directory with name <code>CPP</code> (if not already made) inside the directory you want to work on. <br> e.g. If you want to work on <code>Arrays</code>. You can create a sub-directory with name <code>CPP</code> inside it.
+- Navigate to it. In this case that will be <code>Arrays/CPP/</code>
+- Create a file and with same name that you want to convert with an extension of <code>.cpp</code> <br> e.g. Let's say you want to convert <code>twoNumberSum.py</code> then the new file will be <code>twoNumberSum.cpp</code>
+- Convert the code and submit the Pull Request.
+- Hoooooorah! You did it.🥳
 
 <!--
 
