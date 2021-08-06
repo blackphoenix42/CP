@@ -18,15 +18,9 @@ double PI = acos(-1);
 int dirx[8] = {-1, 0, 0, 1, -1, -1, 1, 1};
 int diry[8] = {0, 1, -1, 0, -1, 1, -1, 1};
 
-#ifdef TESTING
-#define DEBUG fprintf(stderr, "====TESTING====\n")
-#define VALUE(x) cerr << "The value of " << #x << " is " << x << endl
-#define debug(...) fprintf(stderr, **VA_ARGS **)
-#else
-#define DEBUG
-#define VALUE(x)
-#define debug(...)
-#endif
+#define fast_cin()                    \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL)
 
 #define FOR(a, b, c) for (int(a) = (b); (a) < (c); ++(a))
 #define FORN(a, b, c) for (int(a) = (b); (a) <= (c); ++(a))
@@ -107,14 +101,13 @@ inline void OPEN(string s)
 
 int main()
 {
-    ifstream fin;
-    ofstream fout;
-
-    freopen("A.in", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
-    int a, b;
-    fin >> a >> b;
-    fout << a + b << endl;
+    fast_cin();
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+    }
     return 0;
 }
